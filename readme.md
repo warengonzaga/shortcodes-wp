@@ -1,20 +1,30 @@
 # Shortcodes WP
 
-[![by Waren Gonzaga](https://img.shields.io/badge/by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://bmc.xyz/warengonzaga) ![Version](https://img.shields.io/github/release/WarenGonzaga/shortcodes-wp.svg?style=flat-square) ![Stars](https://img.shields.io/github/stars/WarenGonzaga/shortcodes-wp.svg?style=flat-square) ![Size](https://img.shields.io/github/repo-size/warengonzaga/shortcodes-wp?color=green&style=flat-square) ![License](https://img.shields.io/github/license/warengonzaga/shortcodes-wp.svg?style=flat-square)
+[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/releases) [![star](https://img.shields.io/github/stars/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/blob/main/license)
 
 A WordPress shortcode plugin to automagically display WordPress information. Simple and lightweight, no annoying ads and fancy settings.
 
-## Installation
+## 😎 Demo
+
+(coming soon...)
+
+## 📖 Documentation
+
+<!-- <!-- markdownlint-disable MD033 -->
+The complete documentation can be found here:<br/>
+[![Docs](https://img.shields.io/badge/Docs-docs.warengonzaga.com/shortcodes--wp-blue.svg?longCache=true&style=for-the-badge)](https://docs.warengonzaga.com/shortcodes-wp)
+<!-- <!-- markdownlint-enable MD033 -->
+
+## 📦 Installation
 
 To be able to start using this plugin just [download the latest release here](https://github.com/warengonzaga/shortcodes-wp/releases/latest).
 
 - Upload the plugin (.zip file) to the /wp-content/plugins/ directory.
 - Activate the WP Disease Tracker WordPress plugin through the 'Plugins' menu in WordPress.
-- Use the shortcodes from Update Your Footer WP into your site's footer.
 
-## Usage
+## 🕹️ Usage
 
-Simply copy the shortcode below and paste it to the location of your choice.
+Simply copy the shortcode below and paste it somewhere on the front-end of your WordPress website.
 
 ```php
 [wpuser_firstname] //display current user's first name
@@ -23,30 +33,53 @@ Simply copy the shortcode below and paste it to the location of your choice.
 
 More shortcodes coming...
 
-## Contributing
+## 🎯 Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
 
-## Issues
+## 💬 Discussions
 
-If you're facing a problem in using Shortcodes WP please let me know by creating GitHub issue. I'm happy to help you! Don't forget to provide me some screenshot or error logs of it, thank you!
+For any questions, suggestions, ideas, or simply you want to share your experience in using this project, feel free to share and discuss it to the [community](https://github.com/warengonzaga/shortcodes-wp/discussions)!
 
-## Community
+## 🐛 Issues
 
-Wanna see other projects I made? Join today!
+If you're facing a problem in using Shortcodes WP please let me know by [creating an issue here](https://github.com/warengonzaga/shortcodes-wp/issues/new). I'm here to help you!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner3)](https://wrngnz.ga/discord)
+## 🍀 Sponsors and Supporters
 
-## License
+[![BuyMeaCoffee](https://wrngnz.ga/badge-buymeacoffee)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://wrngnz.ga/badge-vercel)](https://vercel.com) [![CircleCI](https://wrngnz.ga/badge-circleci)](https://vercel.com) [![GitBook](https://wrngnz.ga/badge-gitbook)](https://gitbook.io) [![Digital Ocean](https://wrngnz.ga/badge-digitalocean)](https://digitalocean.com) [![Deepware](https://wrngnz.ga/badge-deepware)](https://deepware.ai/) [![NOWPayments](https://wrngnz.ga/badge-nowpayments)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
+
+<!-- markdownlint-disable MD033 -->
+> Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**!<br/>
+> Your coffee donation and support will help me to continue working on open-source projects like this.
+<!-- markdownlint-disable MD033 -->
+
+## 🌏 Community
+
+Wanna contribute to my projects? Join today and contribute!
+
+[![community](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://wareneutron.com/discord) [![community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://wrngnz.ga/discord)
+
+## 📋 Code of Conduct
+
+Read the project's [code of conduct](./code_of_conduct.md).
+
+## 📃 License
 
 Shortcodes WP is licensed under [GNU General Public License v3](https://opensource.org/licenses/GPL-3.0).
 
-## Author
+## 📝 Author
 
-Shortcodes WP is Developed and Maintained by **[Waren Gonzaga](https://github.com/warengonzaga)**
-
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/warengonzagaofficial) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/warengonzaga) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/warengonzagaofficial) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/warengonzaga) [![DEV](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/warengonzaga) [![BMC](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://dev.to/warengonzaga)
+Shortcodes WP is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/shortcodes-wp/graphs/contributors).
 
 ---
 
-:computer: Made with :heart: and :coffee: by Waren Gonzaga with **YHWH** :pray:
+💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | Citizen of Heaven
+
+[personal website]: https://warengonzaga.com
+[business website]: https://wgcompanyhq.com
+[biolink]: https://bio.link/warengonzaga
+[facebook]: https://facebook.com/warengonzagaofficial
+[twitter]: https://twitter.com/warengonzaga
+[instagram]: https://instagram.com/warengonzagaofficial
+[youtube]: https://youtube.com/warengonzaga
