@@ -42,3 +42,9 @@ add_shortcode('wpinfo_current_day', 'current_day');
 function current_day() {
     return get_the_date( 'l' );
 }
+
+// Current month.
+add_shortcode('wpinfo_current_month', 'current_month');
+function current_month() {
+    return get_the_date( 'F' );
+}
