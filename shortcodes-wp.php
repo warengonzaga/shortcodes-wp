@@ -36,3 +36,9 @@ function user_lastname($atts) {
 // wordpress hook
 add_shortcode('wpuser_firstname', 'user_firstname');
 add_shortcode('wpuser_lastname', 'user_lastname');
+
+// Current day.
+add_shortcode('wpinfo_current_day', 'current_day');
+function current_day() {
+    return get_the_date( 'l' );
+}
