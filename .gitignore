@@ -1,0 +1,4 @@
+.vscode
+node*
+vendor*
+.DS_Store
