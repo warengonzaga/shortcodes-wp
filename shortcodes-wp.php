@@ -15,6 +15,8 @@
 // prevent direct access
 defined( 'ABSPATH' ) or die( "Restricted Access!" );
 
+echo get_the_date();
+
 function user_firstname($atts) {
     $user = wp_get_current_user();
     $firstname = $user->first_name;
@@ -40,19 +42,19 @@ add_shortcode('wpuser_lastname', 'user_lastname');
 // Current day.
 add_shortcode('wpinfo_current_day', 'current_day');
 function current_day() {
-    return get_the_date( 'l' );
+    return gmdate( 'l' );
 }
 
 // Current month.
 add_shortcode('wpinfo_current_month', 'current_month');
 function current_month() {
-    return get_the_date( 'F' );
+    return gmdate( 'F' );
 }
 
 // Current year.
 add_shortcode('wpinfo_current_year', 'current_year');
 function current_year() {
-    return get_the_date( 'Y' );
+    return gmdate( 'Y' );
 }
 
 /**
@@ -67,5 +69,5 @@ function current_date($atts) {
     $atts = shortcode_atts( array(
         'format' => $default_date_format,
     ), $atts );
-    return get_the_date( $atts['format'] );
+    return gmdate( $atts['format'] );
 }
