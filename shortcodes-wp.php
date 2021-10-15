@@ -54,3 +54,18 @@ add_shortcode('wpinfo_current_year', 'current_year');
 function current_year() {
     return get_the_date( 'Y' );
 }
+
+/**
+ * Current date
+ *
+ * – Allow the user to select their own format.
+ * – Else fallback to the default option.
+ */
+add_shortcode('wpinfo_current_date', 'current_date');
+function current_date($atts) {
+    $default_date_format = get_option( 'date_format' );
+    $atts = shortcode_atts( array(
+        'format' => $default_date_format,
+    ), $atts );
+    return get_the_date( $atts['format'] );
+}
