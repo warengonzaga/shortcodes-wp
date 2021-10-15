@@ -48,3 +48,9 @@ add_shortcode('wpinfo_current_month', 'current_month');
 function current_month() {
     return get_the_date( 'F' );
 }
+
+// Current year.
+add_shortcode('wpinfo_current_year', 'current_year');
+function current_year() {
+    return get_the_date( 'Y' );
+}
