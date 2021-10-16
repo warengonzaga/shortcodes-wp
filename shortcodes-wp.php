@@ -15,8 +15,6 @@
 // prevent direct access
 defined( 'ABSPATH' ) or die( "Restricted Access!" );
 
-echo get_the_date();
-
 function user_firstname($atts) {
     $user = wp_get_current_user();
     $firstname = $user->first_name;
