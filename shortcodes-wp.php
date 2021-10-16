@@ -37,14 +37,12 @@ function user_lastname($atts) {
 add_shortcode('wpuser_firstname', 'user_firstname');
 add_shortcode('wpuser_lastname', 'user_lastname');
 
-// query string shortcode
-add_shortcode('wpuser_query_string', 'get_query_string');
-function get_query_string($atts){
+// query param shortcode
+add_shortcode('wpuser_query_param', 'get_query_param');
+function get_query_param($atts){
     $atts = shortcode_atts( array(
         'arg' => false,
     ), $atts);
 
-    $query_string = isset( $_GET[ $atts['arg'] ] ) ? sanitize_text_field( $_GET[ $atts['arg'] ] ) : false;
-
-    return $query_string;
+    return isset( $_GET[ $atts['arg'] ] ) ? sanitize_text_field( $_GET[ $atts['arg'] ] ) : false;
 }
