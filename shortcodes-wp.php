@@ -12,8 +12,8 @@
  * WP Update Your Footer
  */
 
-defined( 'ABSPATH' ) or die( 'Restricted Access!' );
 // Prevent direct access.
+defined( 'ABSPATH' ) || die( 'Restricted Access!' );
 
 function user_firstname( $atts ) {
 	$user              = wp_get_current_user();
