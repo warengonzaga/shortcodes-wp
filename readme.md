@@ -31,6 +31,19 @@ Simply copy the shortcode below and paste it somewhere on the front-end of your 
 [wpuser_lastname] //display current user's last name
 ```
 
+### Date
+```php
+[wpinfo_current_day] //display current day e.g. Tuesday
+[wpinfo_current_month] //display current month e.g. November
+[wpinfo_current_year] //display current year e.g. 2020
+```
+
+Display current date, using the format set in Settings > Date format
+```php
+[wpinfo_current_date] OR
+[wpinfo_current_date format="Y/m/d"] 
+```
+
 More shortcodes coming...
 
 ## 🎯 Contributing
