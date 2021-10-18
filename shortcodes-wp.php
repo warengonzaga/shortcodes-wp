@@ -83,5 +83,5 @@ function get_query_param( $atts ) {
 		$atts
 	);
 
-	return isset( $_GET[ $atts['arg'] ] ) ? sanitize_text_field( $_GET[ $atts['arg'] ] ) : false;
+	return isset( $_GET[ $atts['arg'] ] ) ? sanitize_text_field( wp_unslash( $_GET[ $atts['arg'] ] ) ) : false;
 }
