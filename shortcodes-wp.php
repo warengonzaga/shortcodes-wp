@@ -12,15 +12,15 @@
  * WP Update Your Footer
  */
 
-// prevent direct access
 defined( 'ABSPATH' ) or die( 'Restricted Access!' );
+// Prevent direct access.
 
 function user_firstname( $atts ) {
 	$user              = wp_get_current_user();
 	$firstname         = $user->first_name;
 	$display_firstname = $firstname;
 
-	// display output
+	// Display output.
 	return $display_firstname;
 }
 
@@ -29,11 +29,11 @@ function user_lastname( $atts ) {
 	$lastname         = $user->last_name;
 	$display_lastname = $lastname;
 
-	// display output
+	// Display output.
 	return $display_lastname;
 }
 
-// WordPress hook
+// WordPress hook.
 add_shortcode( 'wpuser_firstname', 'user_firstname' );
 add_shortcode( 'wpuser_lastname', 'user_lastname' );
 
@@ -73,7 +73,7 @@ function current_date( $atts ) {
 	return gmdate( $atts['format'] );
 }
 
-// query param shortcode
+// Query param shortcode.
 add_shortcode( 'wpuser_query_param', 'get_query_param' );
 function get_query_param( $atts ) {
 	$atts = shortcode_atts(
