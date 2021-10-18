@@ -44,6 +44,10 @@ Display current date, using the format set in Settings > Date format
 [wpinfo_current_date format="Y/m/d"] 
 ```
 
+```php
+[wpuser_query_param arg="s"] //display a query parameter from the URL e.g. the search parameter
+```
+
 More shortcodes coming...
 
 ## 🎯 Contributing
