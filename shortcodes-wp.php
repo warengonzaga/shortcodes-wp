@@ -82,7 +82,7 @@ if (!function_exists('wp_info_current_date_shortcode')){
 }
 
 // query param shortcode
-add_shortcode('wpuser_query_param', 'wp_info_get_query_param_shortcode');
+add_shortcode('wpinfo_query_param', 'wp_info_get_query_param_shortcode');
 if (!function_exists('wp_info_get_query_param_shortcode')){
     function wp_info_get_query_param_shortcode($atts){
         $atts = shortcode_atts( array(
