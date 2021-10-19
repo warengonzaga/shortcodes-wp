@@ -76,6 +76,5 @@ function get_query_param($atts){
     $atts = shortcode_atts( array(
         'arg' => false,
     ), $atts);
-
     return isset( $_GET[ $atts['arg'] ] ) ? sanitize_text_field( $_GET[ $atts['arg'] ] ) : false;
 }
