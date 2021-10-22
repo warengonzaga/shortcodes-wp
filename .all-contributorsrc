@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "warengonzaga",
+      "name": "Waren Gonzaga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15052701?v=4",
+      "profile": "https://bio.link/warengonzaga",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "shortcodes-wp",
+  "projectOwner": "ChristofLee",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
