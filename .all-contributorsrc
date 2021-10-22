@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "ChristofLee",
+      "name": "Christof Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4659534?v=4",
+      "profile": "https://github.com/ChristofLee",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "warengonzaga",
       "name": "Waren Gonzaga",
       "avatar_url": "https://avatars.githubusercontent.com/u/15052701?v=4",
