@@ -99,6 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ChristofLee"><img src="https://avatars.githubusercontent.com/u/4659534?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christof Lee</b></sub></a><br /><a href="https://github.com/ChristofLee/shortcodes-wp/commits?author=ChristofLee" title="Code">💻</a> <a href="#design-ChristofLee" title="Design">🎨</a></td>
+    <td align="center"><a href="https://bio.link/warengonzaga"><img src="https://avatars.githubusercontent.com/u/15052701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Waren Gonzaga</b></sub></a><br /><a href="https://github.com/ChristofLee/shortcodes-wp/commits?author=warengonzaga" title="Code">💻</a></td>
   </tr>
 </table>
 
