@@ -12,7 +12,7 @@
  * WP Update Your Footer
  */
 
-// Prevent direct access.
+// prevent direct access.
 defined( 'ABSPATH' ) || die( 'Restricted Access!' );
 
 function user_firstname( $atts ) {
@@ -20,7 +20,7 @@ function user_firstname( $atts ) {
 	$firstname         = $user->first_name;
 	$display_firstname = $firstname;
 
-	// Display output.
+	// display output.
 	return $display_firstname;
 }
 
@@ -29,27 +29,27 @@ function user_lastname( $atts ) {
 	$lastname         = $user->last_name;
 	$display_lastname = $lastname;
 
-	// Display output.
+	// display output.
 	return $display_lastname;
 }
 
-// WordPress hook.
+// wordPress hook.
 add_shortcode( 'wpuser_firstname', 'user_firstname' );
 add_shortcode( 'wpuser_lastname', 'user_lastname' );
 
-// Current day.
+// current day.
 add_shortcode( 'wpinfo_current_day', 'current_day' );
 function current_day() {
 	return gmdate( 'l' );
 }
 
-// Current month.
+// current month.
 add_shortcode( 'wpinfo_current_month', 'current_month' );
 function current_month() {
 	return gmdate( 'F' );
 }
 
-// Current year.
+// current year.
 add_shortcode( 'wpinfo_current_year', 'current_year' );
 function current_year() {
 	return gmdate( 'Y' );
@@ -73,7 +73,7 @@ function current_date( $atts ) {
 	return gmdate( $atts['format'] );
 }
 
-// Query param shortcode.
+// query param shortcode.
 add_shortcode( 'wpuser_query_param', 'get_query_param' );
 function get_query_param( $atts ) {
 	$atts = shortcode_atts(
