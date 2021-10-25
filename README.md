@@ -95,19 +95,7 @@ Shortcodes WP is licensed under [GNU General Public License v3](https://opensour
 
 Shortcodes WP is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/shortcodes-wp/graphs/contributors).
 
----
-
-💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | Citizen of Heaven
-
-[personal website]: https://warengonzaga.com
-[business website]: https://wgcompanyhq.com
-[biolink]: https://bio.link/warengonzaga
-[facebook]: https://facebook.com/warengonzagaofficial
-[twitter]: https://twitter.com/warengonzaga
-[instagram]: https://instagram.com/warengonzagaofficial
-[youtube]: https://youtube.com/warengonzaga
-
-## Contributors ✨
+### 😇 Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -119,10 +107,20 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://bio.link/warengonzaga"><img src="https://avatars.githubusercontent.com/u/15052701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Waren Gonzaga</b></sub></a><br /><a href="https://github.com/WarenGonzaga/shortcodes-wp/commits?author=WarenGonzaga" title="Code">💻</a></td>
   </tr>
 </table>
-
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
+
+💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | Citizen of Heaven
+
+[personal website]: https://warengonzaga.com
+[business website]: https://wgcompanyhq.com
+[biolink]: https://bio.link/warengonzaga
+[facebook]: https://facebook.com/warengonzagaofficial
+[twitter]: https://twitter.com/warengonzaga
+[instagram]: https://instagram.com/warengonzagaofficial
+[youtube]: https://youtube.com/warengonzaga
