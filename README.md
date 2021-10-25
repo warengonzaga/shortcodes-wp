@@ -2,6 +2,10 @@
 
 [![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/releases) [![star](https://img.shields.io/github/stars/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/blob/main/license)
 
+📢 Nominate ([@WarenGonzaga](https://warengonzaga.com)) as **[GitHub Star](https://stars.github.com/nominate)**. If you appreciate his hardwork and dedication to open source.
+
+---
+
 A WordPress shortcode plugin to automagically display WordPress information. Simple and lightweight, no annoying ads and fancy settings.
 
 ## 😎 Demo
@@ -31,6 +35,23 @@ Simply copy the shortcode below and paste it somewhere on the front-end of your 
 [wpuser_lastname] //display current user's last name
 ```
 
+### Date
+```php
+[wpinfo_current_day] //display current day e.g. Tuesday
+[wpinfo_current_month] //display current month e.g. November
+[wpinfo_current_year] //display current year e.g. 2020
+```
+
+Display current date, using the format set in Settings > Date format
+```php
+[wpinfo_current_date] OR
+[wpinfo_current_date format="Y/m/d"] 
+```
+
+```php
+[wpuser_query_param arg="s"] //display a query parameter from the URL e.g. the search parameter
+```
+
 More shortcodes coming...
 
 ## 🎯 Contributing
@@ -47,12 +68,11 @@ If you're facing a problem in using Shortcodes WP please let me know by [creatin
 
 ## 🍀 Sponsors and Supporters
 
-[![BuyMeaCoffee](https://wrngnz.ga/badge-buymeacoffee)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://wrngnz.ga/badge-vercel)](https://vercel.com) [![CircleCI](https://wrngnz.ga/badge-circleci)](https://vercel.com) [![GitBook](https://wrngnz.ga/badge-gitbook)](https://gitbook.io) [![Digital Ocean](https://wrngnz.ga/badge-digitalocean)](https://digitalocean.com) [![Deepware](https://wrngnz.ga/badge-deepware)](https://deepware.ai/) [![NOWPayments](https://wrngnz.ga/badge-nowpayments)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
+[![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://img.shields.io/badge/Vercel-%23000.svg?&style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![CircleCI](https://img.shields.io/badge/CircleCI-%23000.svg?&style=for-the-badge&logo=CircleCI&logoColor=white)](https://vercel.com) [![GitBook](https://img.shields.io/badge/GitBook-%233884FF.svg?&style=for-the-badge&logo=gitbook&logoColor=white)](https://gitbook.io) [![Digital Ocean](https://img.shields.io/badge/Digital%20Ocean-%230080ff.svg?&style=for-the-badge&logo=digitalocean&logoColor=white)](https://digitalocean.com) [![Deepware](https://img.shields.io/badge/deepware-%23cb2653.svg?&style=for-the-badge&logoColor=white)](https://deepware.ai/) [![NOWPayments](https://img.shields.io/badge/NOWPayments-%2364ACFF.svg?&style=for-the-badge&logoColor=white)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
 
-<!-- markdownlint-disable MD033 -->
-> Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**!<br/>
+> Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**!
+> Can't send coffees? Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
 > Your coffee donation and support will help me to continue working on open-source projects like this.
-<!-- markdownlint-disable MD033 -->
 
 ## 🌏 Community
 
