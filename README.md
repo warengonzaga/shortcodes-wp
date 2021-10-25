@@ -1,4 +1,7 @@
 # Shortcodes WP
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/releases) [![star](https://img.shields.io/github/stars/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/shortcodes-wp.svg?style=flat-square)](https://github.com/warengonzaga/shortcodes-wp/blob/main/license)
 
@@ -91,6 +94,24 @@ Shortcodes WP is licensed under [GNU General Public License v3](https://opensour
 ## 📝 Author
 
 Shortcodes WP is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/shortcodes-wp/graphs/contributors).
+
+### 😇 Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bio.link/warengonzaga"><img src="https://avatars.githubusercontent.com/u/15052701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Waren Gonzaga</b></sub></a><br /><a href="https://github.com/WarenGonzaga/shortcodes-wp/commits?author=WarenGonzaga" title="Code">💻</a></td>
+  </tr>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ---
 
